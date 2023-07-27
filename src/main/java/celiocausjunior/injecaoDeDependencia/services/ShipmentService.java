@@ -1,7 +1,10 @@
 package celiocausjunior.injecaoDeDependencia.services;
 
+import org.springframework.stereotype.Service;
+
 import celiocausjunior.injecaoDeDependencia.models.OrderModel;
 
+@Service
 public class ShipmentService {
 
     public Double shipment(OrderModel order) {
